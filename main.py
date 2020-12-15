@@ -16,7 +16,6 @@ num1 = int(input())
 print("Enter another number:")
 num2 = int(input())
 print("Enter +, -, * or /:")
-print("If using divison, remainders will not be shown.")
 operation = input()
 if operation == "+":
   add(num1,num2)
@@ -27,4 +26,4 @@ elif operation == "*":
 elif operation == "/":
   div(num1,num2)
 else:
-  print("Invalid operation. Please start program")
+  print("Invalid operation. Please restart program")
